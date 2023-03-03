@@ -235,7 +235,6 @@ input{
     margin-top: 25px;
     border: none;
     cursor: pointer;
-
 }
 
 
@@ -271,6 +270,10 @@ footer{
 .box7 img{
     margin-right: 10px;
 }
+.box7 p {
+    word-spacing: 2px;
+    line-height: 1.2;
+}
 .ui li{
     margin-bottom: 10px;
 }
@@ -298,6 +301,26 @@ address div{
     justify-content: center;
     align-items: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
 
 
@@ -306,6 +329,13 @@ address div{
 
 
 @media (width < 600px) {
+
+
+    .box0 img {
+        width:100% ;
+        }
+
+
     .box1>div {
         width: 100%;
        margin-bottom: 35px;
@@ -318,7 +348,7 @@ address div{
         margin: 0 ;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         padding: 0 15px;
     }
 
@@ -333,6 +363,16 @@ address div{
         padding: 20px 20px;
         flex-direction: column;
     }
+    .box2>div{
+        margin-left: 10px;
+       margin: 50px 0;
+    }
+    
+
+    .ill-logo{
+        width: 100%;
+    }
+
     .box5{
         width: 85%;
     }
@@ -357,12 +397,32 @@ footer{
     flex-direction: column
   }
 
+
   .box7 p{
     margin-left: 20px;
-    padding: 0 0 30px 30px;
+    padding: 0 0 30px 20px ;
     justify-content: space-around;
     font-size: 14px;
   }
+
+  .social-links{
+    display: flex;
+    align-self: center;
+    margin-top: 50px;
+}
+
+address{
+    margin-top: 50px;
+}
+
+.footer-p{
+    margin-top: 50px;
+}
+
+.footer-p p{
+    width: 100%;
+}
+
   
   
   
